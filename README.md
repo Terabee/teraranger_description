@@ -57,6 +57,6 @@ INFOS: By settings the multihub parameter to _true_ or _1_ you will enable auto-
 * sensor frame = \_hub\_${hub_id}\_base_range\_${id}\_
 * hub frame = base\_hub\_${hub_id}
 
-___To enable compatibility, The ROS driver will append its namespace to the frame_id inside the RangeArray and Range messages, thus it is strongly recommended to use hub\_${hub_id} as node namespace for the driver.___
+___To enable compatibility, The ROS driver for the tower (from the [teraranger\_array package](https://github.com/Terabee/teraranger_array)) will append its namespace to the frame_id inside the RangeArray and Range messages, thus it is strongly recommended to use hub\_${hub_id} as node namespace for the driver.___
 
 
