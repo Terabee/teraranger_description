@@ -1,5 +1,5 @@
 # teraranger_description
-# ROS package for URDF description of TeraRanger Tower by Terabee
+# ROS package for URDF description of TeraRanger products by Terabee
 
 This package is a collection of URDF files of teraranger products:
 * [TeraRanger Tower](http://www.teraranger.com/teraranger-tower/)
