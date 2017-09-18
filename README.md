@@ -1,8 +1,11 @@
 # teraranger_description
-# ROS package for TeraRanger array solutions by Terabee
+# ROS package for URDF description of TeraRanger Tower by Terabee
 
 This package is a collection of URDF files of teraranger products:
 * [TeraRanger Tower](http://www.teraranger.com/teraranger-tower/)
+
+It is required for using these packages:
+* [Teraranger array converter](https://github.com/Terabee/teraranger_array_converter)
 
 ## Building and running the package from source
 
@@ -55,6 +58,6 @@ INFOS: By settings the multihub parameter to _true_ or _1_ you will enable auto-
 * sensor frame = \_hub\_${hub_id}\_base_range\_${id}\_
 * hub frame = base\_hub\_${hub_id}
 
-___To enable compatibility, The ROS driver will append its namespace to the frame_id inside the RangeArray and Range messages, thus it is strongly recommended to use hub_${hub_id} as node namespace for the driver.___
+___To enable compatibility, The ROS driver will append its namespace to the frame_id inside the RangeArray and Range messages, thus it is strongly recommended to use hub\_${hub_id} as node namespace for the driver.___
 
 
