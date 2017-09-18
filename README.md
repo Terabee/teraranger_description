@@ -47,7 +47,7 @@ If you want a custom setup, just include the base_hub and teraranger_one xacro f
 <xacro:include filename="$(find teraranger_description)/urdf/base_hub.urdf.xacro"/>
 <xacro:include filename="$(find teraranger_description)/urdf/teraranger_one.urdf.xacro"/>
 ```
-Custom setup:
+Custom setup example (1 hub + 1 TeraRangerOne sensor):
 
 ```
 <base_hub multi_hub="${multi_hub}" hub_id='${hub_id}' parent="${parent}" x="${x}" y="${y}" z="${z}" roll="${roll}" pitch="${pitch}" yaw="${yaw}" />
