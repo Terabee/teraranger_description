@@ -41,10 +41,10 @@ Then you will be able to call the xacro from your main URDF file:
  
 If you want a custom setup, just include the base_hub and teraranger_one xacro files and build your own setup:
 ```
-<base_hub multi_hub="${multi_hub}" hub_id='${hub_id}' parent="${parent}" x="${x}" y="${y}" z="${z}" roll="${roll}" pitch="${pitch}" yaw="${yaw}" />
-<teraranger_one multi_hub="${multi_hub}" hub_id='${hub_id}' id="0" x="0.060" y="0.000" z="0.0" roll="0.0" pitch="0.0" yaw="0.000" gaussian_noise="0.06"/>
+<xacro:include filename="$(find teraranger_description)/urdf/base_hub.urdf.xacro"/>
+<xacro:include filename="$(find teraranger_description)/urdf/teraranger_one.urdf.xacro"/>
 ```
- 
+Custom setup:
 
 ```
 <base_hub multi_hub="${multi_hub}" hub_id='${hub_id}' parent="${parent}" x="${x}" y="${y}" z="${z}" roll="${roll}" pitch="${pitch}" yaw="${yaw}" />
