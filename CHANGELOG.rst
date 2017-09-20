@@ -2,8 +2,8 @@
 Changelog for package teraranger_description
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+1.0.1 (2017-09-20)
+------------------
 * Update package.xml
 * Add hub_id prefix to "base_hub" when multi-hub is enabled
 * Contributors: Kabaradjian PL
