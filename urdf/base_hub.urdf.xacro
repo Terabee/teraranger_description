@@ -23,7 +23,7 @@
           <link name="hub_${hub_id}_gyro_link"/>
           <joint name="hub_${hub_id}_gyro_joint" type="fixed">
               <origin xyz="0.0 0.0 0" rpy="0 0 -3.1415" />
-              <parent link="base_hub" />
+              <parent link="base_hub_${hub_id}" /> 
               <child link="hub_${hub_id}_gyro_link" />
           </joint>
 
