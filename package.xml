@@ -2,13 +2,13 @@
 <package>
   <name>teraranger_description</name>
   <version>0.0.0</version>
-  <description>The teraranger_tower_description package</description>
+  <description>The teraranger_description package</description>
 
   <maintainer email="baptiste.potier@terabee.com">Baptiste Potier</maintainer>
 
   <license>TODO</license>
 
-  <url type="website">http://wiki.ros.org/teraranger_tower_description</url>
+  <url type="website">http://wiki.ros.org/teraranger_description</url>
 
   <author email="krzysztof.zurad@terabee.com">Krzysztof Zurad</author>
   <author email="pierre-louis.kabaradjian@terabee.com">Kabaradjian Pierre-Louis</author>
