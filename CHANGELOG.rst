@@ -2,8 +2,8 @@
 Changelog for package teraranger_description
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+1.0.2 (2017-09-28)
+------------------
 * Remove old naming references
 * Contributors: Kabaradjian PL
 
