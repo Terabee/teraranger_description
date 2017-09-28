@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <robot name="teraranger_tower" xmlns:xacro="http://www.ros.org/wiki/xacro">
 
-    <xacro:include filename="$(find teraranger_tower_description)/urdf/base_hub.urdf.xacro"/>
-    <xacro:include filename="$(find teraranger_tower_description)/urdf/teraranger_one.urdf.xacro"/>
+    <xacro:include filename="$(find teraranger_description)/urdf/base_hub.urdf.xacro"/>
+    <xacro:include filename="$(find teraranger_description)/urdf/teraranger_one.urdf.xacro"/>
     <xacro:macro name="teraranger_tower" params="multi_hub hub_id parent x y z roll pitch yaw">
 
         <base_hub multi_hub="${multi_hub}" hub_id='${hub_id}' parent="${parent}" x="${x}" y="${y}" z="${z}" roll="${roll}" pitch="${pitch}" yaw="${yaw}" />

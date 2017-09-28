@@ -8,7 +8,7 @@
                 <visual>
                     <origin xyz="0 0 -0.005" rpy="0 0 0"/>
                     <geometry>
-                        <mesh filename="package://teraranger_tower_description/meshes/trone.dae"/>
+                        <mesh filename="package://teraranger_description/meshes/trone.dae"/>
                     </geometry>
                     <material name="Yellow"/>
                 </visual>
@@ -64,7 +64,7 @@
                 <visual>
                     <origin xyz="0 0 -0.005" rpy="0 0 0"/>
                     <geometry>
-                        <mesh filename="package://teraranger_tower_description/meshes/trone.dae"/>
+                        <mesh filename="package://teraranger_description/meshes/trone.dae"/>
                     </geometry>
                     <material name="Yellow"/>
                 </visual>
