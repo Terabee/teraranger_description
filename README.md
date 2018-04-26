@@ -5,7 +5,7 @@ This package is a collection of URDF files of teraranger products:
 * [TeraRanger Tower](http://www.teraranger.com/teraranger-tower/)
 
 It is required for using these packages:
-* [Teraranger array converter](https://github.com/Terabee/teraranger_array_converter)
+* [teraranger_array_converter](https://github.com/Terabee/teraranger_array_converter)
 
 ## Building and running the package from source
 
