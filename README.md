@@ -54,7 +54,7 @@ Custom setup example (1 hub + 1 TeraRangerOne sensor):
 <teraranger_one multi_hub="0" hub_id="0" id="0" x="0.060" y="0.000" z="0.0" roll="0.0" pitch="0.0" yaw="0.0" gaussian_noise="0.06"/>
 ```
 INFOS: By settings the multihub parameter to _true_ or _1_ you will enable auto-namespacing of the frame_id with the following convention:
-* sensor frame = hub\_${hub_id}\_base_range\_${id}\_
+* sensor frame = hub\_${hub_id}\_base_range\_${id}
 * hub frame = base\_hub\_${hub_id}
 
 ___To enable compatibility, The ROS driver for the tower (from the [teraranger\_array package](https://github.com/Terabee/teraranger_array)) will append its namespace to the frame_id inside the RangeArray and Range messages, thus it is strongly recommended to use hub\_${hub_id} as node namespace for the driver.___
