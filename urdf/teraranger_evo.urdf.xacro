@@ -15,7 +15,6 @@
                     </material>
                 </visual>
             </link>
-745
             <joint name="hub_${hub_id}_base_range_joint_${id}" type="fixed">
                 <origin xyz="${x} ${y} ${z}" rpy="${roll} ${pitch} ${yaw}"/>
                 <parent link="base_hub_${hub_id}"/>
@@ -89,8 +88,8 @@
                             <horizontal>
                                 <samples>10</samples>
                                 <resolution>1</resolution>
-                                <min_angle>-0.01745</min_angle>
-                                <max_angle>0.01745</max_angle>
+                                <min_angle>-0.01250</min_angle>
+                                <max_angle>0.01250</max_angle>
                             </horizontal>
                             <vertical>
                                 <samples>10</samples>
