@@ -7,7 +7,7 @@
         <visual>
             <origin xyz="0 0 0" rpy="1.57 0 0 "/>
             <geometry>
-                  <mesh filename="$(find teraranger_tower_evo_description)/meshes/Evo_Tower.stl"/>
+                  <mesh filename="$(find teraranger_description)/meshes/Evo_Tower.stl"/>
             </geometry>
             <material name="Black"/>
         </visual>

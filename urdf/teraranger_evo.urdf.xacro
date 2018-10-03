@@ -8,7 +8,7 @@
                 <visual>
                     <origin xyz="0.0 0.0 0.0" rpy="0 0 0"/>
                     <geometry>
-                        <mesh filename="package://teraranger_tower_evo_description/meshes/teraranger_evo.stl"/>
+                        <mesh filename="package://teraranger_description/meshes/teraranger_evo.stl"/>
                     </geometry>
                     <material name="Yellow">
                         <color rgba="1.0 1.0 0.0 1.0"/>
@@ -65,7 +65,7 @@
                 <visual>
                     <origin xyz="0.0 0 0.0" rpy="0 0 0"/>
                     <geometry>
-                        <mesh filename="package://teraranger_tower_evo_description/meshes/teraranger_evo.stl"/>
+                        <mesh filename="package://teraranger_description/meshes/teraranger_evo.stl"/>
                     </geometry>
                     <material name="Yellow"/>
                 </visual>
