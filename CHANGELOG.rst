@@ -2,8 +2,8 @@
 Changelog for package teraranger_description
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+1.1.0 (2018-10-08)
+------------------
 * Update README for Tower Evo
 * Add files for Tower Evo
 * Contributors: Baptiste Potier, Kabaradjian Pierre-Louis

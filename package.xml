@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
   <name>teraranger_description</name>
-  <version>1.0.2</version>
+  <version>1.1.0</version>
   <description>The teraranger_description package</description>
 
   <maintainer email="baptiste.potier@terabee.com">Baptiste Potier</maintainer>
